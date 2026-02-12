@@ -1,29 +1,29 @@
 [[main]]
   name = "Über mich"
-  url = "/about"
+  pageRef = "about"
   weight = 1
 
 [[main]]
   name = "Erfahrung"
-  url = "/experience"
+  pageRef = "experience"
   weight = 2
 
 [[main]]
   name = "Projekte"
-  url = "/projects"
+  pageRef = "projects"
   weight = 3
 
 [[main]]
   name = "Blog"
-  url = "/blog"
+  pageRef = "blog"
   weight = 4
 
 [[main]]
   name = "Lebenslauf"
-  url = "/cv"
+  pageRef = "cv"
   weight = 5
 
 [[main]]
   name = "Kontakt"
-  url = "/contact"
+  pageRef = "contact"
   weight = 6
