@@ -1,6 +1,11 @@
-.ltr-switcher option,
-[id*="language"] option,
-select option {
-  background-color: #1f1d1b;
-  color: #fafaf9;
+.translation .menuhide li {
+  background-color: rgb(31, 29, 27);
+}
+
+.translation .menuhide a span {
+  color: rgb(240, 239, 237);
+}
+
+.translation .menuhide a:hover span {
+  color: rgb(173, 139, 61);
 }
