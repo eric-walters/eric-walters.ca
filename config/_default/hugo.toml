@@ -7,12 +7,17 @@ theme = "blowfish"
     title = "Eric Walters"
     languageName = "English"
     weight = 1
+    [languages.en.params]
+      displayName = "English"
   [languages.fr]
     title = "Eric Walters"
     languageName = "Français"
     weight = 2
+    [languages.fr.params]
+      displayName = "Français"
   [languages.de]
     title = "Eric Walters"
     languageName = "Deutsch"
     weight = 3
-
+    [languages.de.params]
+      displayName = "Deutsch"
