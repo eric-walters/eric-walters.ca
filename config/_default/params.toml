@@ -21,3 +21,5 @@ enableSearch = true
     { linkedin = "https://linkedin.com/in/eric-g-w" },
     { email = "mailto:contact@eric-walters.ca" },
   ]
+
+customCSS = ["css/custom.css"]

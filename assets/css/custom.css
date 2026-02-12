@@ -1,0 +1,6 @@
+.ltr-switcher option,
+[id*="language"] option,
+select option {
+  background-color: #1f1d1b;
+  color: #fafaf9;
+}
