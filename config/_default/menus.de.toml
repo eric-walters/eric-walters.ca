@@ -1,0 +1,29 @@
+[[main]]
+  name = "Über mich"
+  url = "/about"
+  weight = 1
+
+[[main]]
+  name = "Erfahrung"
+  url = "/experience"
+  weight = 2
+
+[[main]]
+  name = "Projekte"
+  url = "/projects"
+  weight = 3
+
+[[main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 4
+
+[[main]]
+  name = "Lebenslauf"
+  url = "/cv"
+  weight = 5
+
+[[main]]
+  name = "Kontakt"
+  url = "/contact"
+  weight = 6

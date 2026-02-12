@@ -1,0 +1,18 @@
+baseURL = "https://eric-walters.ca/"
+defaultContentLanguage = "en"
+
+[_languages]
+  [languages.en]
+    title = "Eric Walters"
+    languageName = "English"
+    weight = 1
+  [languages.fr]
+    title = "Eric Walters"
+    languageName = "Français"
+    weight = 2
+  [languages.de]
+    title = "Eric Walters"
+    languageName = "Deutsch"
+    weight = 3
+
+theme = "blowfish"
