@@ -2,14 +2,22 @@ colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
-homepage.layout = "profile"
-homepage.showRecent = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 4
+
+[article]
+  showDate = true
+  showReadingTime = true
 
 [author]
   name = "Eric Walters"
   headline = "Mechanical Engineering, B.Sc. · University of Alberta · 2026"
-
-[author.links]
-  github = "eric-walters"
-  linkedin = "eric-g-w"
-  email = "contact@eric-walters.ca"
+  image = "img/author.jpg"
+  links = [
+    { github = "https://github.com/eric-walters" },
+    { linkedin = "https://linkedin.com/in/eric-g-w" },
+    { email = "mailto:contact@eric-walters.ca" },
+  ]
