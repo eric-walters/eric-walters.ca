@@ -1,5 +1,6 @@
 baseURL = "https://eric-walters.ca/"
 defaultContentLanguage = "en"
+theme = "blowfish"
 
 [languages]
   [languages.en]
@@ -15,4 +16,3 @@ defaultContentLanguage = "en"
     languageName = "Deutsch"
     weight = 3
 
-theme = "blowfish"
