@@ -1,29 +1,31 @@
 [[main]]
   name = "À propos"
   pageRef = "about"
-  weight = 1
+  weight = 10
 
 [[main]]
   name = "Expérience"
   pageRef = "experience"
-  weight = 2
+  weight = 20
 
 [[main]]
   name = "Projets"
   pageRef = "projects"
-  weight = 3
+  weight = 30
 
 [[main]]
   name = "Blog"
   pageRef = "blog"
-  weight = 4
-
-[[main]]
-  name = "CV"
-  pageRef = "cv"
-  weight = 5
+  weight = 40
 
 [[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 6
+  weight = 50
+
+[[main]]
+  name = "Télécharger CV"
+  url = "/resume.pdf"
+  weight = 60
+  [main.params]
+    target = "_blank"
