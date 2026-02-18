@@ -25,6 +25,10 @@
   --steel-tint: rgba(71, 85, 105, 0.08);
   --steel-tint-strong: rgba(71, 85, 105, 0.14);
 
+  /* ── Slate — cool-toned structural accent ── */
+  --slate: #5a6a7a;
+  --slate-tint: rgba(90, 106, 122, 0.08);
+
   /* ── Typography ── */
   --serif: 'Libre Baskerville', Georgia, serif;
   --sans: 'Instrument Sans', -apple-system, sans-serif;

@@ -19,10 +19,16 @@
     },
     "about": {
       "label": "01 — About",
-      "heading": "Mechanical engineer with<br>range across Industry, <br>Design and Systems.",
-      "paragraph_1": "Three years of co-op and field experience across upstream oil and gas, commercial HVAC, and drilling operations. Worked as a wellsite operator managing 50 conventional crude wells independently, supported commercial equipment sales on projects exceeding $1M, and spent over a year on drilling rigs in both deep sour gas and shallow crude programs. This range of exposure provides a practical understanding of how engineered systems actually perform, fail, and get maintained in the field.",
-      "paragraph_2": "Strong academic foundation in CAD, simulation, and design methodology. Led a cross-functional capstone team of six through detailed design of a balloon-launched autonomous glider platform, producing ASME-compliant drawings and detailed assebly and parts 3D models for client hand-off. Winner of the Junior Honors Design Award for 1st place in the 2nd Year Design Competition. Bilingual in English and French with basic knowledge of German. Canadian citizen open to relocation internationally.",
-      "paragraph_3": "Also building technical skills outside the classroom through a self-hosted infrastructure project running on Proxmox virtualization with segmented VLANs, VPN access, and containerized services. What started as a simple NAS evolved into a full home lab covering Linux administration, firewall configuration, networking, and service deployment. Currently working toward managing the entire stack as infrastructure-as-code. This self-directed approach extended into web development, including this portfolio site. Much of the learning has been accelerated by working alongside AI tools as a research and troubleshooting partner, treating them as a way to move faster through unfamiliar technical territory rather than a shortcut around understanding it.",
+      "heading": "Mechanical engineer with range across industry, design and systems",
+      "stats": [
+        { "number": "3+", "label": "Years co-op and field experience" },
+        { "number": "50", "label": "Wells managed independently" },
+        { "number": "400+", "label": "Parts in capstone assembly" },
+        { "number": "20+", "label": "Self-hosted services running" }
+      ],
+      "paragraph_1": "Co-op and field experience across upstream oil and gas, commercial HVAC, and drilling operations. Managed 50 conventional crude wells independently as a wellsite operator, supported commercial equipment sales on projects exceeding $1M, and spent over a year on drilling rigs in both sour gas and shallow crude programs.",
+      "paragraph_2": "Strong academic foundation in CAD, simulation, and design methodology. Led a capstone team of six through detailed design of a balloon-launched autonomous glider platform, producing ASME-compliant drawings and a 400+ part assembly for client hand-off. Winner of the Junior Honors Design Award.",
+      "paragraph_3": "Building technical skills outside the classroom through a self-hosted infrastructure project running on Proxmox with segmented VLANs, VPN access, and 20+ containerized services. Currently working toward managing the full stack as infrastructure-as-code. This self-directed approach extended into web development, including this portfolio site, accelerated by working alongside AI tools as a research partner.",
       "detail_education_label": "Education",
       "detail_education_value": "B.Sc. Mechanical Engineering",
       "detail_education_sub": "University of Alberta · 2026",
@@ -37,7 +43,9 @@
     },
     "experience": {
       "label": "02 — Experience",
-      "heading": "Field and professional experience across upstream energy, commercial HVAC, and team operations."
+      "heading": "Professional experience across energy, HVAC, and operations",
+      "read_more": "Read more ↓",
+      "show_less": "Show less ↑"
     },
     "projects": {
       "label": "03 — Projects",
@@ -46,8 +54,8 @@
       "view_github": "View on GitHub →"
     },
     "skills": {
-      "label": "04 — Skills & Certifications",
-      "heading": "Skills & tools"
+      "label": "04 — Skills & Tools",
+      "heading": "Technical skills, certifications and languages"
     },
     "contact": {
       "label": "05 — Contact",
@@ -81,10 +89,16 @@
     },
     "about": {
       "label": "01 — À propos",
-      "heading": "Ingénieur mécanicien avec<br>une expérience diversifiée en<br>industrie, conception et systèmes.",
-      "paragraph_1": "Trois ans d'expérience en stages coopératifs et sur le terrain dans les secteurs pétrolier et gazier en amont, CVC commercial et opérations de forage. A travaillé comme opérateur de site de puits gérant de manière indépendante 50 puits de pétrole brut conventionnels, soutenu les ventes d'équipements commerciaux sur des projets dépassant 1 M$, et passé plus d'un an sur des plateformes de forage dans des programmes de gaz acide profond et de pétrole brut peu profond. Cette diversité d'expérience offre une compréhension pratique de la façon dont les systèmes d'ingénierie fonctionnent réellement, tombent en panne et sont entretenus sur le terrain.",
-      "paragraph_2": "Solide formation académique en CAO, simulation et méthodologie de conception. A dirigé une équipe de projet de fin d'études pluridisciplinaire de six personnes à travers la conception détaillée d'une plateforme de planeur autonome lancé par ballon, produisant des dessins conformes ASME et des modèles 3D détaillés d'assemblage et de pièces pour la remise au client. Lauréat du Junior Honors Design Award pour la 1re place au concours de conception de 2e année. Bilingue en anglais et en français avec des connaissances de base en allemand. Citoyen canadien ouvert à la relocalisation à l'international.",
-      "paragraph_3": "Développe également des compétences techniques en dehors des cours à travers un projet d'infrastructure auto-hébergée fonctionnant sur la virtualisation Proxmox avec des VLANs segmentés, un accès VPN et des services conteneurisés. Ce qui a commencé comme un simple NAS a évolué en un laboratoire domestique complet couvrant l'administration Linux, la configuration de pare-feu, le réseau et le déploiement de services. Travaille actuellement vers la gestion de l'ensemble de la pile en tant qu'infrastructure-as-code. Cette approche autodidacte s'est étendue au développement web, y compris ce site portfolio. Une grande partie de l'apprentissage a été accélérée en travaillant avec des outils d'IA comme partenaire de recherche et de dépannage, les traitant comme un moyen d'avancer plus rapidement en territoire technique inconnu plutôt qu'un raccourci pour éviter la compréhension.",
+      "heading": "Ingénieur mécanicien avec une expérience diversifiée en industrie, conception et systèmes",
+      "stats": [
+        { "number": "3+", "label": "Années d'expérience coopérative et terrain" },
+        { "number": "50", "label": "Puits gérés de façon autonome" },
+        { "number": "400+", "label": "Pièces dans l'assemblage de fin d'études" },
+        { "number": "20+", "label": "Services auto-hébergés en opération" }
+      ],
+      "paragraph_1": "Expérience coopérative et de terrain dans les secteurs pétrolier et gazier en amont, le CVC commercial et les opérations de forage. Gestion autonome de 50 puits de pétrole brut conventionnels, soutien à la vente d'équipements commerciaux sur des projets dépassant 1 M$ et plus d'un an sur des plateformes de forage dans des programmes de gaz acide et de pétrole brut peu profond.",
+      "paragraph_2": "Solide formation académique en CAO, simulation et méthodologie de conception. Direction d'une équipe de six personnes pour la conception détaillée d'une plateforme de planeur autonome lancé par ballon, produisant des dessins conformes ASME et un assemblage de plus de 400 pièces pour remise au client. Lauréat du Junior Honors Design Award.",
+      "paragraph_3": "Développement de compétences techniques en dehors des cours à travers un projet d'infrastructure auto-hébergée fonctionnant sur Proxmox avec des VLANs segmentés, un accès VPN et plus de 20 services conteneurisés. Travaille actuellement vers la gestion de l'ensemble de la pile en tant qu'infrastructure-as-code. Cette approche autodidacte s'est étendue au développement web, y compris ce site portfolio, accélérée par le travail aux côtés d'outils d'IA comme partenaire de recherche.",
       "detail_education_label": "Formation",
       "detail_education_value": "B.Sc. Génie mécanique",
       "detail_education_sub": "Université de l'Alberta · 2026",
@@ -99,7 +113,9 @@
     },
     "experience": {
       "label": "02 — Expérience",
-      "heading": "Expérience sur le terrain et professionnelle dans l'énergie en amont, le CVC commercial et les opérations d'équipe."
+      "heading": "Expérience professionnelle en énergie, CVC et opérations",
+      "read_more": "Lire la suite ↓",
+      "show_less": "Réduire ↑"
     },
     "projects": {
       "label": "03 — Projets",
@@ -108,8 +124,8 @@
       "view_github": "Voir sur GitHub →"
     },
     "skills": {
-      "label": "04 — Compétences & Certifications",
-      "heading": "Compétences & outils"
+      "label": "04 — Compétences & Outils",
+      "heading": "Compétences techniques, certifications et langues"
     },
     "contact": {
       "label": "05 — Contact",
@@ -143,10 +159,16 @@
     },
     "about": {
       "label": "01 — Über mich",
-      "heading": "Maschinenbauingenieur mit<br>Erfahrung in Industrie,<br>Konstruktion und Systemen.",
-      "paragraph_1": "Drei Jahre Praxis- und Felderfahrung in der vorgelagerten Öl- und Gasindustrie, gewerblicher HLK-Technik und Bohrbetrieb. Arbeitete als Bohrlochstandortbetreiber und verwaltete eigenständig 50 konventionelle Rohölbrunnen, unterstützte den gewerblichen Geräteverkauf bei Projekten über 1 Mio. $ und verbrachte über ein Jahr auf Bohranlagen in Tiefensauergas- und Flachbohrprogrammen. Diese Bandbreite an Erfahrung bietet ein praktisches Verständnis dafür, wie technische Systeme tatsächlich funktionieren, ausfallen und im Feld gewartet werden.",
-      "paragraph_2": "Solide akademische Grundlage in CAD, Simulation und Konstruktionsmethodik. Leitete ein interdisziplinäres Abschlussprojektteam von sechs Personen durch die Detailkonstruktion einer ballongestarteten autonomen Gleiterplattform, erstellte ASME-konforme Zeichnungen und detaillierte 3D-Montage- und Teilemodelle für die Kundenübergabe. Gewinner des Junior Honors Design Award für den 1. Platz im Konstruktionswettbewerb des 2. Jahres. Zweisprachig in Englisch und Französisch mit Grundkenntnissen in Deutsch. Kanadischer Staatsbürger, offen für internationale Umzüge.",
-      "paragraph_3": "Baut außerdem technische Fähigkeiten außerhalb des Studiums durch ein selbst gehostetes Infrastrukturprojekt auf, das auf Proxmox-Virtualisierung mit segmentierten VLANs, VPN-Zugang und containerisierten Diensten läuft. Was als einfaches NAS begann, entwickelte sich zu einem vollständigen Heimlabor für Linux-Administration, Firewall-Konfiguration, Netzwerk und Service-Bereitstellung. Arbeitet derzeit daran, den gesamten Stack als Infrastructure-as-Code zu verwalten. Dieser autodidaktische Ansatz erstreckte sich auch auf die Webentwicklung, einschließlich dieser Portfolio-Website. Ein Großteil des Lernens wurde durch die Zusammenarbeit mit KI-Tools als Forschungs- und Fehlerbehebungspartner beschleunigt, wobei diese als Mittel genutzt werden, um schneller durch unbekanntes technisches Terrain zu navigieren, anstatt das Verständnis zu umgehen.",
+      "heading": "Maschinenbauingenieur mit Erfahrung in Industrie, Konstruktion und Systemen",
+      "stats": [
+        { "number": "3+", "label": "Jahre Praxis- und Felderfahrung" },
+        { "number": "50", "label": "Bohrlöcher eigenständig betreut" },
+        { "number": "400+", "label": "Teile in der Abschlussprojekt-Baugruppe" },
+        { "number": "20+", "label": "Selbst gehostete Dienste in Betrieb" }
+      ],
+      "paragraph_1": "Kooperative und praktische Erfahrung in den Bereichen Upstream-Öl und -Gas, gewerbliche HLK-Technik und Bohrbetrieb. Eigenständige Verwaltung von 50 konventionellen Rohölbrunnen, Unterstützung kommerzieller Ausrüstungsverkäufe bei Projekten über 1 Mio. $ und über ein Jahr auf Bohranlagen in Sauergas- und Flachbohrprogrammen.",
+      "paragraph_2": "Starke akademische Grundlage in CAD, Simulation und Entwurfsmethodik. Leitung eines sechsköpfigen Abschlussprojektteams durch die Detailkonstruktion einer ballongestarteten autonomen Gleiterplattform mit ASME-konformen Zeichnungen und einer Baugruppe mit über 400 Teilen. Gewinner des Junior Honors Design Award.",
+      "paragraph_3": "Aufbau technischer Fähigkeiten außerhalb des Studiums durch ein selbst gehostetes Infrastrukturprojekt auf Proxmox mit segmentierten VLANs, VPN-Zugang und über 20 containerisierten Diensten. Arbeitet derzeit an der Verwaltung des gesamten Stacks als Infrastructure-as-Code. Dieser autodidaktische Ansatz erstreckte sich auf die Webentwicklung, einschließlich dieser Portfolio-Website, beschleunigt durch die Zusammenarbeit mit KI-Tools als Forschungspartner.",
       "detail_education_label": "Ausbildung",
       "detail_education_value": "B.Sc. Maschinenbau",
       "detail_education_sub": "University of Alberta · 2026",
@@ -161,7 +183,9 @@
     },
     "experience": {
       "label": "02 — Erfahrung",
-      "heading": "Feld- und Berufserfahrung in vorgelagerter Energie, gewerblicher HLK und Teambetrieb."
+      "heading": "Berufserfahrung in Energie, HLK und Betrieb",
+      "read_more": "Mehr lesen ↓",
+      "show_less": "Weniger ↑"
     },
     "projects": {
       "label": "03 — Projekte",
@@ -170,8 +194,8 @@
       "view_github": "Auf GitHub ansehen →"
     },
     "skills": {
-      "label": "04 — Kompetenzen & Zertifizierungen",
-      "heading": "Kompetenzen & Werkzeuge"
+      "label": "04 — Kompetenzen & Werkzeuge",
+      "heading": "Technische Kompetenzen, Zertifizierungen und Sprachen"
     },
     "contact": {
       "label": "05 — Kontakt",

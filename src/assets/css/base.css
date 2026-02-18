@@ -27,23 +27,23 @@ body {
 /* ── Section Label — gold, monospace ── */
 .section-label {
   font-family: var(--mono);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ── Headings — Libre Baskerville ── */
 h2 {
   font-family: var(--serif);
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
   color: var(--text);
-  margin-bottom: 0.75rem;
-  letter-spacing: -0.005em;
+  margin-bottom: 2rem;
+  letter-spacing: -0.01em;
 }
 
 .section-intro {
@@ -82,5 +82,5 @@ h2 {
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
-  h2 { font-size: 1.7rem; }
+  h2 { font-size: 1.8rem; margin-bottom: 1.5rem; }
 }

@@ -1,4 +1,4 @@
-{# Skills — tiered layout from skills data #}
+{# Skills — three-column typographic grid #}
 {% set lang = locale | default("en") %}
 {% set t = translations[lang] %}
 {% if lang == "fr" %}
@@ -14,15 +14,15 @@
       <div class="section-label">{{ t.skills.label }}</div>
       <h2>{{ t.skills.heading }}</h2>
     </div>
-    <div class="skills-tiers">
+    <div class="skills-grid">
       {% for group in sk %}
-      <div class="skill-tier skill-tier--{{ group.layout }} reveal">
-        <h4 class="skill-tier-heading skill-tier-heading--{{ group.layout }}">{{ group.tier }}</h4>
-        <div class="skill-tier-items">
+      <div class="skills-column reveal">
+        <h3 class="skills-column-heading">{{ group.tier }}</h3>
+        <ul class="skills-list skills-list--{{ group.layout }}">
           {% for item in group.items %}
-          <span class="skill-pill skill-pill--{{ group.layout }}">{{ item }}</span>
+          <li>{{ item }}</li>
           {% endfor %}
-        </div>
+        </ul>
       </div>
       {% endfor %}
     </div>

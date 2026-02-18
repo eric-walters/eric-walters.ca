@@ -8,7 +8,7 @@
 {% else %}
   {% set exp = experience %}
 {% endif %}
-<section class="experience section-alt" id="experience">
+<section class="experience section-alt" id="experience" data-locale="{{ lang }}">
   <div class="container">
     <div class="reveal">
       <div class="section-label">{{ t.experience.label }}</div>
@@ -25,7 +25,9 @@
         <div class="timeline-content">
           <h3>{{ job.title }}</h3>
           <div class="timeline-company">{{ job.company }}</div>
-          <p class="timeline-desc">{{ job.description }}</p>
+          <div class="exp-description">
+            <p class="timeline-desc">{{ job.description }}</p>
+          </div>
           <div class="timeline-tags">
             {% for tag in job.tags %}
             <span class="tag">{{ tag }}</span>

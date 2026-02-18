@@ -11,43 +11,43 @@
 <section class="about container" id="about">
   <div class="reveal">
     <div class="section-label">{{ t.about.label }}</div>
-    <h2>{{ t.about.heading | safe }}</h2>
+    <h2 class="about-heading">{{ t.about.heading | safe }}</h2>
   </div>
-  <div class="about-grid">
-    <div class="about-text reveal reveal-d1">
-      <p>
-        {{ t.about.paragraph_1 }}
-      </p>
-      <p>
-        {{ t.about.paragraph_2 }}
-      </p>
+  <div class="about-details reveal">
+    <div class="about-detail">
+      <span class="about-detail-label">{{ t.about.detail_education_label }}</span>
+      <span class="about-detail-value">{{ t.about.detail_education_value }}</span>
+      <span class="about-detail-sub">{{ t.about.detail_education_sub }}</span>
     </div>
-    <div class="about-details reveal reveal-d2">
-      <div class="detail-row">
-        <div class="detail-label">{{ t.about.detail_education_label }}</div>
-        <div class="detail-value">{{ t.about.detail_education_value }}</div>
-        <div class="detail-sub">{{ t.about.detail_education_sub }}</div>
-      </div>
-      <div class="detail-row">
-        <div class="detail-label">{{ t.about.detail_languages_label }}</div>
-        <div class="detail-value">{{ t.about.detail_languages_value }}</div>
-        <div class="detail-sub">{{ t.about.detail_languages_sub }}</div>
-      </div>
-      <div class="detail-row">
-        <div class="detail-label">{{ t.about.detail_location_label }}</div>
-        <div class="detail-value">{{ m.location }}</div>
-        <div class="detail-sub">{{ t.about.detail_location_sub }}</div>
-      </div>
-      <div class="detail-row">
-        <div class="detail-label">{{ t.about.detail_focus_label }}</div>
-        <div class="detail-value">{{ t.about.detail_focus_value }}</div>
-        <div class="detail-sub">{{ t.about.detail_focus_sub }}</div>
-      </div>
+    <div class="about-detail">
+      <span class="about-detail-label">{{ t.about.detail_languages_label }}</span>
+      <span class="about-detail-value">{{ t.about.detail_languages_value }}</span>
+      <span class="about-detail-sub">{{ t.about.detail_languages_sub }}</span>
     </div>
+    <div class="about-detail">
+      <span class="about-detail-label">{{ t.about.detail_location_label }}</span>
+      <span class="about-detail-value">{{ m.location }}</span>
+      <span class="about-detail-sub">{{ t.about.detail_location_sub }}</span>
+    </div>
+    <div class="about-detail">
+      <span class="about-detail-label">{{ t.about.detail_focus_label }}</span>
+      <span class="about-detail-value">{{ t.about.detail_focus_value }}</span>
+      <span class="about-detail-sub">{{ t.about.detail_focus_sub }}</span>
+    </div>
+  </div>
+  <div class="about-text reveal">
+    <p>{{ t.about.paragraph_1 }}</p>
+    <p>{{ t.about.paragraph_2 }}</p>
+  </div>
+  <div class="about-stats reveal">
+    {% for stat in t.about.stats %}
+    <div class="about-stat">
+      <span class="about-stat-number">{{ stat.number }}</span>
+      <span class="about-stat-label">{{ stat.label }}</span>
+    </div>
+    {% endfor %}
   </div>
   <div class="about-extra reveal">
-    <p>
-      {{ t.about.paragraph_3 }}
-    </p>
+    <p>{{ t.about.paragraph_3 }}</p>
   </div>
 </section>
