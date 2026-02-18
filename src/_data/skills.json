@@ -1,0 +1,40 @@
+[
+  {
+    "tier": "Core Technical Skills",
+    "layout": "prominent",
+    "items": [
+      "SolidWorks (CSWA Certified)",
+      "ASME-Compliant Engineering Drawings",
+      "FEA / CFD Analysis",
+      "GD&T / Technical Drawing",
+      "3D Printing & Rapid Prototyping",
+      "MATLAB",
+      "Microsoft Excel"
+    ]
+  },
+  {
+    "tier": "Applied & Self-Taught",
+    "layout": "standard",
+    "items": [
+      "Linux Systems Administration",
+      "Proxmox / Docker",
+      "Networking (VLANs, DNS, VPN)",
+      "Git / Version Control",
+      "AutoCAD",
+      "Adobe Photoshop"
+    ]
+  },
+  {
+    "tier": "Certifications & Languages",
+    "layout": "badges",
+    "items": [
+      "CSWA",
+      "H2S Alive",
+      "Standard First Aid",
+      "Fall Arrest",
+      "English (Fluent)",
+      "French (Proficient)",
+      "German (Basic)"
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact",
+      "download_cv": "Download CV",
+      "project_capstone": "Balloon-Launched Drone",
+      "project_vanaheim": "Vanaheim Homelab"
+    },
+    "hero": {
+      "eyebrow": "Mechanical Engineering, B.Sc. — University of Alberta",
+      "desc": "CSWA-certified Mechanical Engineering student with hands-on field experience and strong CAD fundamentals. Skilled in SolidWorks assemblies, ASME-compliant drawings, and FEA/CFD analysis. Graduating 2026, seeking positions in Product Design, Operations or Technical Sales.",
+      "open_to_relocation": "Open to relocation",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "about": {
+      "label": "01 — About",
+      "heading": "Mechanical engineer with<br>range across Industry, <br>Design and Systems.",
+      "paragraph_1": "Three years of co-op and field experience across upstream oil and gas, commercial HVAC, and drilling operations. Worked as a wellsite operator managing 50 conventional crude wells independently, supported commercial equipment sales on projects exceeding $1M, and spent over a year on drilling rigs in both deep sour gas and shallow crude programs. This range of exposure provides a practical understanding of how engineered systems actually perform, fail, and get maintained in the field.",
+      "paragraph_2": "Strong academic foundation in CAD, simulation, and design methodology. Led a cross-functional capstone team of six through detailed design of a balloon-launched autonomous glider platform, producing ASME-compliant drawings and detailed assebly and parts 3D models for client hand-off. Winner of the Junior Honors Design Award for 1st place in the 2nd Year Design Competition. Bilingual in English and French with basic knowledge of German. Canadian citizen open to relocation internationally.",
+      "paragraph_3": "Also building technical skills outside the classroom through a self-hosted infrastructure project running on Proxmox virtualization with segmented VLANs, VPN access, and containerized services. What started as a simple NAS evolved into a full home lab covering Linux administration, firewall configuration, networking, and service deployment. Currently working toward managing the entire stack as infrastructure-as-code. This self-directed approach extended into web development, including this portfolio site. Much of the learning has been accelerated by working alongside AI tools as a research and troubleshooting partner, treating them as a way to move faster through unfamiliar technical territory rather than a shortcut around understanding it.",
+      "detail_education_label": "Education",
+      "detail_education_value": "B.Sc. Mechanical Engineering",
+      "detail_education_sub": "University of Alberta · 2026",
+      "detail_languages_label": "Languages",
+      "detail_languages_value": "English · French · German",
+      "detail_languages_sub": "Fluent · Proficient · Basic",
+      "detail_location_label": "Location",
+      "detail_location_sub": "Open to: Canada, UK, France, Germany, Australia",
+      "detail_focus_label": "Focus",
+      "detail_focus_value": "Design · Operations · Sales",
+      "detail_focus_sub": "Field engineering, project coordination"
+    },
+    "experience": {
+      "label": "02 — Experience",
+      "heading": "Field and professional experience across upstream energy, commercial HVAC, and team operations."
+    },
+    "projects": {
+      "label": "03 — Projects",
+      "heading": "Selected work",
+      "intro": "A capstone engineering project and an ongoing personal infrastructure build.",
+      "view_github": "View on GitHub →"
+    },
+    "skills": {
+      "label": "04 — Skills & Certifications",
+      "heading": "Skills & tools"
+    },
+    "contact": {
+      "label": "05 — Contact",
+      "heading": "Let's connect"
+    },
+    "footer": {
+      "text_before": "© 2026 Eric Walters",
+      "text_after": "Built with 11ty · Deployed on Cloudflare Pages"
+    },
+    "project_page": {
+      "back_link": "← Back to all projects"
+    }
+  },
+  "fr": {
+    "nav": {
+      "about": "À propos",
+      "experience": "Expérience",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "contact": "Contact",
+      "download_cv": "Télécharger CV",
+      "project_capstone": "Drone lancé par ballon",
+      "project_vanaheim": "Vanaheim Homelab"
+    },
+    "hero": {
+      "eyebrow": "Génie mécanique, B.Sc. — Université de l'Alberta",
+      "desc": "Étudiant en génie mécanique certifié CSWA avec une expérience pratique sur le terrain et de solides compétences en CAO. Maîtrise des assemblages SolidWorks, des dessins conformes ASME et de l'analyse FEA/CFD. Diplôme prévu en 2026, à la recherche de postes en conception de produits, opérations ou ventes techniques.",
+      "open_to_relocation": "Ouvert à la relocalisation",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "about": {
+      "label": "01 — À propos",
+      "heading": "Ingénieur mécanicien avec<br>une expérience diversifiée en<br>industrie, conception et systèmes.",
+      "paragraph_1": "Trois ans d'expérience en stages coopératifs et sur le terrain dans les secteurs pétrolier et gazier en amont, CVC commercial et opérations de forage. A travaillé comme opérateur de site de puits gérant de manière indépendante 50 puits de pétrole brut conventionnels, soutenu les ventes d'équipements commerciaux sur des projets dépassant 1 M$, et passé plus d'un an sur des plateformes de forage dans des programmes de gaz acide profond et de pétrole brut peu profond. Cette diversité d'expérience offre une compréhension pratique de la façon dont les systèmes d'ingénierie fonctionnent réellement, tombent en panne et sont entretenus sur le terrain.",
+      "paragraph_2": "Solide formation académique en CAO, simulation et méthodologie de conception. A dirigé une équipe de projet de fin d'études pluridisciplinaire de six personnes à travers la conception détaillée d'une plateforme de planeur autonome lancé par ballon, produisant des dessins conformes ASME et des modèles 3D détaillés d'assemblage et de pièces pour la remise au client. Lauréat du Junior Honors Design Award pour la 1re place au concours de conception de 2e année. Bilingue en anglais et en français avec des connaissances de base en allemand. Citoyen canadien ouvert à la relocalisation à l'international.",
+      "paragraph_3": "Développe également des compétences techniques en dehors des cours à travers un projet d'infrastructure auto-hébergée fonctionnant sur la virtualisation Proxmox avec des VLANs segmentés, un accès VPN et des services conteneurisés. Ce qui a commencé comme un simple NAS a évolué en un laboratoire domestique complet couvrant l'administration Linux, la configuration de pare-feu, le réseau et le déploiement de services. Travaille actuellement vers la gestion de l'ensemble de la pile en tant qu'infrastructure-as-code. Cette approche autodidacte s'est étendue au développement web, y compris ce site portfolio. Une grande partie de l'apprentissage a été accélérée en travaillant avec des outils d'IA comme partenaire de recherche et de dépannage, les traitant comme un moyen d'avancer plus rapidement en territoire technique inconnu plutôt qu'un raccourci pour éviter la compréhension.",
+      "detail_education_label": "Formation",
+      "detail_education_value": "B.Sc. Génie mécanique",
+      "detail_education_sub": "Université de l'Alberta · 2026",
+      "detail_languages_label": "Langues",
+      "detail_languages_value": "Anglais · Français · Allemand",
+      "detail_languages_sub": "Courant · Compétent · Base",
+      "detail_location_label": "Lieu",
+      "detail_location_sub": "Ouvert à : Canada, R.-U., France, Allemagne, Australie",
+      "detail_focus_label": "Domaines",
+      "detail_focus_value": "Conception · Opérations · Ventes",
+      "detail_focus_sub": "Ingénierie de terrain, coordination de projets"
+    },
+    "experience": {
+      "label": "02 — Expérience",
+      "heading": "Expérience sur le terrain et professionnelle dans l'énergie en amont, le CVC commercial et les opérations d'équipe."
+    },
+    "projects": {
+      "label": "03 — Projets",
+      "heading": "Travaux sélectionnés",
+      "intro": "Un projet de fin d'études en ingénierie et un projet personnel d'infrastructure en cours.",
+      "view_github": "Voir sur GitHub →"
+    },
+    "skills": {
+      "label": "04 — Compétences & Certifications",
+      "heading": "Compétences & outils"
+    },
+    "contact": {
+      "label": "05 — Contact",
+      "heading": "Restons en contact"
+    },
+    "footer": {
+      "text_before": "© 2026 Eric Walters",
+      "text_after": "Construit avec 11ty · Déployé sur Cloudflare Pages"
+    },
+    "project_page": {
+      "back_link": "← Retour aux projets"
+    }
+  },
+  "de": {
+    "nav": {
+      "about": "Über mich",
+      "experience": "Erfahrung",
+      "projects": "Projekte",
+      "skills": "Kompetenzen",
+      "contact": "Kontakt",
+      "download_cv": "Lebenslauf herunterladen",
+      "project_capstone": "Ballongestartete Drohne",
+      "project_vanaheim": "Vanaheim Homelab"
+    },
+    "hero": {
+      "eyebrow": "Maschinenbau, B.Sc. — University of Alberta",
+      "desc": "CSWA-zertifizierter Maschinenbaustudent mit praktischer Felderfahrung und fundierten CAD-Kenntnissen. Erfahren in SolidWorks-Baugruppen, ASME-konformen Zeichnungen und FEA/CFD-Analyse. Abschluss 2026, auf der Suche nach Positionen in Produktdesign, Betrieb oder technischem Vertrieb.",
+      "open_to_relocation": "Offen für Umzug",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "about": {
+      "label": "01 — Über mich",
+      "heading": "Maschinenbauingenieur mit<br>Erfahrung in Industrie,<br>Konstruktion und Systemen.",
+      "paragraph_1": "Drei Jahre Praxis- und Felderfahrung in der vorgelagerten Öl- und Gasindustrie, gewerblicher HLK-Technik und Bohrbetrieb. Arbeitete als Bohrlochstandortbetreiber und verwaltete eigenständig 50 konventionelle Rohölbrunnen, unterstützte den gewerblichen Geräteverkauf bei Projekten über 1 Mio. $ und verbrachte über ein Jahr auf Bohranlagen in Tiefensauergas- und Flachbohrprogrammen. Diese Bandbreite an Erfahrung bietet ein praktisches Verständnis dafür, wie technische Systeme tatsächlich funktionieren, ausfallen und im Feld gewartet werden.",
+      "paragraph_2": "Solide akademische Grundlage in CAD, Simulation und Konstruktionsmethodik. Leitete ein interdisziplinäres Abschlussprojektteam von sechs Personen durch die Detailkonstruktion einer ballongestarteten autonomen Gleiterplattform, erstellte ASME-konforme Zeichnungen und detaillierte 3D-Montage- und Teilemodelle für die Kundenübergabe. Gewinner des Junior Honors Design Award für den 1. Platz im Konstruktionswettbewerb des 2. Jahres. Zweisprachig in Englisch und Französisch mit Grundkenntnissen in Deutsch. Kanadischer Staatsbürger, offen für internationale Umzüge.",
+      "paragraph_3": "Baut außerdem technische Fähigkeiten außerhalb des Studiums durch ein selbst gehostetes Infrastrukturprojekt auf, das auf Proxmox-Virtualisierung mit segmentierten VLANs, VPN-Zugang und containerisierten Diensten läuft. Was als einfaches NAS begann, entwickelte sich zu einem vollständigen Heimlabor für Linux-Administration, Firewall-Konfiguration, Netzwerk und Service-Bereitstellung. Arbeitet derzeit daran, den gesamten Stack als Infrastructure-as-Code zu verwalten. Dieser autodidaktische Ansatz erstreckte sich auch auf die Webentwicklung, einschließlich dieser Portfolio-Website. Ein Großteil des Lernens wurde durch die Zusammenarbeit mit KI-Tools als Forschungs- und Fehlerbehebungspartner beschleunigt, wobei diese als Mittel genutzt werden, um schneller durch unbekanntes technisches Terrain zu navigieren, anstatt das Verständnis zu umgehen.",
+      "detail_education_label": "Ausbildung",
+      "detail_education_value": "B.Sc. Maschinenbau",
+      "detail_education_sub": "University of Alberta · 2026",
+      "detail_languages_label": "Sprachen",
+      "detail_languages_value": "Englisch · Französisch · Deutsch",
+      "detail_languages_sub": "Fließend · Kompetent · Grundkenntnisse",
+      "detail_location_label": "Standort",
+      "detail_location_sub": "Offen für: Kanada, UK, Frankreich, Deutschland, Australien",
+      "detail_focus_label": "Schwerpunkt",
+      "detail_focus_value": "Konstruktion · Betrieb · Vertrieb",
+      "detail_focus_sub": "Feldingenieurwesen, Projektkoordination"
+    },
+    "experience": {
+      "label": "02 — Erfahrung",
+      "heading": "Feld- und Berufserfahrung in vorgelagerter Energie, gewerblicher HLK und Teambetrieb."
+    },
+    "projects": {
+      "label": "03 — Projekte",
+      "heading": "Ausgewählte Arbeiten",
+      "intro": "Ein Abschlussprojekt in Ingenieurwesen und ein laufendes persönliches Infrastrukturprojekt.",
+      "view_github": "Auf GitHub ansehen →"
+    },
+    "skills": {
+      "label": "04 — Kompetenzen & Zertifizierungen",
+      "heading": "Kompetenzen & Werkzeuge"
+    },
+    "contact": {
+      "label": "05 — Kontakt",
+      "heading": "Kontakt aufnehmen"
+    },
+    "footer": {
+      "text_before": "© 2026 Eric Walters",
+      "text_after": "Erstellt mit 11ty · Bereitgestellt auf Cloudflare Pages"
+    },
+    "project_page": {
+      "back_link": "← Zurück zu allen Projekten"
+    }
+  }
+}

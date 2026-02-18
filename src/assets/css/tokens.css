@@ -1,0 +1,73 @@
+/*
+ * DESIGN TOKENS
+ * eric-walters.ca
+ *
+ * Gold:  #AD8B3D — rare, decorative (section labels, company names, CTAs, dividers)
+ * Steel: #475569 — structural (tags, detail labels, timeline, nav links)
+ * Light: Marble #F4F4F7 / Dark: Slate #12141B
+ *
+ * Fonts: Libre Baskerville (headings), Instrument Sans (body), JetBrains Mono (labels)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* ── Gold — primary accent, rare/precious ── */
+  --gold: #AD8B3D;
+  --gold-light: #C49A45;
+  --gold-dim: #8F7030;
+  --gold-glow: rgba(173, 139, 61, 0.08);
+
+  /* ── Steel — secondary accent, structural ── */
+  --steel: #475569;
+  --steel-light: #5C6B7F;
+  --steel-dim: #384458;
+  --steel-tint: rgba(71, 85, 105, 0.08);
+  --steel-tint-strong: rgba(71, 85, 105, 0.14);
+
+  /* ── Typography ── */
+  --serif: 'Libre Baskerville', Georgia, serif;
+  --sans: 'Instrument Sans', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+
+  /* ── Easing ── */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-subtle: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Light Mode (default) ── */
+[data-theme="light"] {
+  --bg: #F4F4F7;
+  --bg-card: #FFFFFF;
+  --bg-alt: #EEEEF2;
+  --bg-card-hover: #FAFAFC;
+  --text: #1C1B22;
+  --text-2: #52515A;
+  --text-3: #87868E;
+  --border: #DDDCE2;
+  --border-subtle: #E8E7EC;
+  --nav-bg: rgba(244, 244, 247, 0.9);
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+  --shadow-hover: 0 8px 30px rgba(0,0,0,0.07);
+}
+
+/* ── Dark Mode ── */
+[data-theme="dark"] {
+  --bg: #12141B;
+  --bg-card: #1A1C24;
+  --bg-alt: #161820;
+  --bg-card-hover: #1F212A;
+  --text: #E4E3E8;
+  --text-2: #9896A0;
+  --text-3: #65636E;
+  --border: #2A2C36;
+  --border-subtle: #22242E;
+  --nav-bg: rgba(18, 20, 27, 0.9);
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.2);
+  --shadow-hover: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+[data-theme="dark"] .tag {
+  background: rgba(71, 85, 105, 0.15);
+  color: var(--steel-light);
+}

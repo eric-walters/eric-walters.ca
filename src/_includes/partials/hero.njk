@@ -1,0 +1,45 @@
+{# Hero — full-height landing with name animation #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% if lang == "fr" %}
+  {% set m = meta_fr %}
+{% elif lang == "de" %}
+  {% set m = meta_de %}
+{% else %}
+  {% set m = meta %}
+{% endif %}
+<section class="hero container">
+  <div class="hero-content">
+    <div class="hero-top-row">
+      <div class="hero-headshot">
+        <img src="/assets/images/headshot.jpg" alt="Eric Walters" width="280" height="373" loading="eager">
+      </div>
+      <div class="hero-top-text">
+        <h1 class="hero-name">
+          <span class="hero-name-line">Eric</span>
+          <span class="hero-name-line">Walters</span>
+        </h1>
+        <div class="hero-eyebrow">{{ t.hero.eyebrow }}</div>
+        <div class="hero-line"></div>
+      </div>
+    </div>
+    <p class="hero-desc">
+      {{ t.hero.desc }}
+    </p>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><span class="meta-dot"></span> {{ m.location }}</div>
+      <div class="hero-meta-item"><span class="meta-dot"></span> {{ m.languages }}</div>
+      <div class="hero-meta-item"><span class="meta-dot"></span> {{ t.hero.open_to_relocation }}</div>
+    </div>
+    <div class="hero-contact">
+      <a href="mailto:{{ m.email }}" class="cv-btn">{{ m.email }}</a>
+      <a href="{{ m.linkedin }}" class="contact-link" target="_blank" rel="noopener">{{ t.hero.linkedin }}</a>
+      <a href="{{ m.github }}" class="contact-link" target="_blank" rel="noopener">{{ t.hero.github }}</a>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <div class="scroll-chevron"></div>
+  </div>
+</section>

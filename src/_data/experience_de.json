@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Werkstudent — Bohrlochstandortbetreiber",
+    "company": "Canadian Natural Resources Limited",
+    "date": "Mai — Aug. 2024",
+    "location": "Bonnyville, AB",
+    "description": "Alleiniger Schichtbetreiber verantwortlich für etwa 50 konventionelle Rohölbrunnen auf 15 Standorten. Führte tägliche Rundgänge zur Produktionsüberwachung durch, erfasste Betriebsdaten und wartete erdgasbetriebene Skid-Einheiten einschließlich Motoren, Generatoren und Hydraulikaggregate. Verwaltete den gesamten Betriebszyklus eigenständig: vorbeugende Wartung, Produktionsoptimierung, Flüssigkeitsstandüberwachung und Koordination aller Drittanbieterdienstleistungen von Tankabholungen bis zu Motorreparaturen. Identifizierte unterperformende Brunnen durch Flüssigkeitsdiagnostik und passte Pumpengeschwindigkeiten und Gestängepumpparameter an, um die Förderung wiederherzustellen und mehrere Brunnen auf die Zielproduktion zurückzubringen. Arbeitete in einem Woche-an, Woche-ab-Rotationsschema mit voller Verantwortung für alle Standorte während jeder Schicht.",
+    "tags": ["Produktionsbetrieb", "Vorbeugende Wartung", "Brunnenoptimierung", "Eigenständige Feldarbeit"]
+  },
+  {
+    "title": "Expeditionsleiter",
+    "company": "Cactus Club Café",
+    "date": "Juli 2024 — Juni 2025",
+    "location": "Edmonton, AB",
+    "description": "Als Expeditor eingestellt und arbeitete als einer von zwei Expeditionsleitern, die bis zu acht Teammitglieder pro Schicht am Pass koordinierten. Verantwortlich für die Sequenzierung und das Aufrufen von Bestellungen, die Durchführung abschließender Qualitätskontrollen aller ausgehenden Teller und die Steuerung des Flusses zwischen Küche und Service während Abendservices von 400–500 Gedecken an Spitzenabenden. Stellte sicher, dass alle Positionen jeder Rechnung gleichzeitig und temperaturgerecht angerichtet und serviert wurden, was ständige Koordination mit mehreren Küchenstationen erforderte. Diente als Hauptausbilder für neue Expeditoren und arbeitete mit dem Management an einem aktualisierten Schulungsprogramm für neue Teammitglieder. Übernahm bei Bedarf auch Spülschichten zur Unterstützung des Betriebs. Vereinbarte die Teilzeitrolle mit einem Vollzeitstudium des Maschinenbaus an der University of Alberta.",
+    "tags": ["Teamkoordination", "Qualitätssicherung", "Schulung & Entwicklung", "Großvolumenbetrieb"]
+  },
+  {
+    "title": "HLK-Vertriebsingenieur-Praktikant",
+    "company": "Trane Technologies",
+    "date": "Mai — Aug. 2023",
+    "location": "Edmonton, AB",
+    "description": "Arbeitete unter einem leitenden Vertriebsingenieur und unterstützte die gesamte gewerbliche HLK-Vertriebspipeline — von der anfänglichen Gerätespezifikation mit Planungsingenieuren bis hin zu Ausschreibungen und endgültigen Angeboten. Unterstützte 5–6 gleichzeitige Projekte, von kleinen Nachrüstungen bis zu großen Entwicklungen einschließlich Mehrzweck-Freizeitzentren, Innenstadttürmen und Lagerhausbauten. Arbeitete mit beratenden Ingenieuren an der Geräteauswahl zusammen, führte Feuchtigkeitsberechnungen durch und half bei der Spezifikation von Lüftungsanlagenkonfigurationen zur Optimierung von Systemleistung und Betriebskosten. Stellte Angebote für Auftragnehmer über das gesamte Produktspektrum zusammen und verhandelte diese, einschließlich Dachgeräte, Kältemaschinen, Lüftungsanlagen und VRF-Systeme, und arbeitete mit Lieferanten an wettbewerbsfähigen Paketpreisen. Erlernte die kaufmännische Seite des Ingenieurvertriebs: Margenmanagement und Wettbewerbspositionierung gegenüber anderen Herstellern. Entwickelte sich von der Hintergrundunterstützung zur eigenständigen Betreuung von Beziehungen mit neueren Ingenieurkunden und Auftragnehmerarbeit.",
+    "tags": ["HLK", "Gerätespezifikation", "Kundenbetreuung", "Technischer Vertrieb"]
+  },
+  {
+    "title": "Bohrhelfer",
+    "company": "Ensign Energy Serives",
+    "date": "Jan. - Aug. 2022",
+    "location": "Kindersley, SK",
+    "description": "Bohrhelfer auf einer Super-Single-Bohranlage für flache horizontale Rohölbrunnen für Teine Energy. Hauptaufgaben konzentrierten sich auf Gerätewartung und betriebliche Instandhaltung, einschließlich Wartung von Generatoren, Pumpen und mechanischen Hilfssystemen der Anlage. Überwachte Fluidsysteme und unterstützte bei Routineinspektionen von BOP-Ausrüstung und Sicherheitsvorrichtungen. Führte tägliche Gefährdungsbeurteilungen durch und unterstützte sichere, kontinuierliche Bohroperationen. Hielt 100 % HSE-Konformität bei 12-Stunden-Schichten unter abgelegenen Feldbedingungen ein.",
+    "tags": ["Gerätewartung", "HSE-Konformität", "Bohrbetrieb", "Sicherheitssysteme"]
+  },
+  {
+    "title": "Bohrhelfer",
+    "company": "Precision Drilling",
+    "date": "Mai - Dez. 2021",
+    "location": "Spirit River, AB",
+    "description": "Arbeitete als Bohrhelfer auf einer Triple-Bohranlage im abgelegenen Nordwesten Albertas und bohrte 5–7 km lange horizontale Sauergas-Bohrlöcher für Tourmaline Oil. Arbeitete auf einer Wanderanlage, die sich ohne Demontage zwischen Bohrplätzen bewegte. Verantwortlich für alle manuellen Rohrhandhabungsarbeiten auf dem Bohrboden, tägliche Gefährdungsbeurteilungen und kleinere Wartung von Hydraulik-, Wasser- und Dampfsystemen. Nahm an vollständigen Anlagenumzügen teil, einschließlich Geräteabbau, Transportkoordination und Wiederaufbau. Arbeitete in 20-Tage-an, 10-Tage-ab-Rotationen mit 12-Stunden-Schichten.",
+    "tags": ["Tiefbohrungen", "Anlagenumzüge", "Rohrhandhabung", "Sauergas-Betrieb"]
+  }
+]

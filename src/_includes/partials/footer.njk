@@ -1,0 +1,6 @@
+{# Footer #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+<footer>
+  <p>{{ t.footer.text_before }} <span class="gold-dash">—</span> {{ t.footer.text_after }}</p>
+</footer>

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Étudiant d'été — Opérateur de site de puits",
+    "company": "Canadian Natural Resources Limited",
+    "date": "Mai — Août 2024",
+    "location": "Bonnyville, AB",
+    "description": "Seul opérateur en poste responsable d'environ 50 puits de pétrole brut conventionnels répartis sur 15 sites. Effectuait des circuits quotidiens pour surveiller la production, enregistrer les données de fonctionnement et entretenir les unités sur patins alimentées au gaz naturel, y compris moteurs, génératrices et unités de puissance hydraulique. Gérait de manière indépendante l'ensemble du cycle opérationnel : maintenance préventive, optimisation de la production, surveillance des niveaux de fluide et coordination de tous les services tiers, des vidanges de réservoirs aux réparations de moteurs. Identifiait les puits sous-performants grâce au diagnostic par injection de fluide et ajustait les vitesses de pompe et les paramètres de levage par tiges pour rétablir la production, ramenant plusieurs puits à leur objectif de production. Travaillait en rotation d'une semaine de travail, une semaine de repos avec pleine responsabilité de tous les sites pendant chaque quart.",
+    "tags": ["Opérations de production", "Maintenance préventive", "Optimisation de puits", "Travail de terrain autonome"]
+  },
+  {
+    "title": "Chef d'expédition",
+    "company": "Cactus Club Café",
+    "date": "Juil. 2024 — Juin 2025",
+    "location": "Edmonton, AB",
+    "description": "Embauché comme expéditeur et travaillait comme l'un des deux chefs d'expédition coordonnant jusqu'à huit membres d'équipe par quart au passe-plat. Responsable du séquençage et de l'appel des commandes, des contrôles de qualité finaux sur toutes les assiettes sortantes et de la gestion du flux entre la cuisine et la salle pendant des services de 400 à 500 couverts aux soirs de pointe. Assurait que tous les articles de chaque addition soient dressés et livrés simultanément à température, nécessitant une coordination constante avec plusieurs postes de cuisine. Servait comme formateur principal pour les nouveaux expéditeurs et collaborait avec la direction pour développer un programme de formation mis à jour pour les nouveaux membres de l'équipe. Effectuait également des quarts de plongeur au besoin pour soutenir les opérations. Conciliait le rôle à temps partiel avec des études à temps plein en génie mécanique à l'Université de l'Alberta.",
+    "tags": ["Coordination d'équipe", "Assurance qualité", "Formation & Développement", "Opérations à haut volume"]
+  },
+  {
+    "title": "Stagiaire ingénieur commercial CVC",
+    "company": "Trane Technologies",
+    "date": "Mai — Août 2023",
+    "location": "Edmonton, AB",
+    "description": "Travaillait sous la direction d'un ingénieur commercial senior en soutien à l'ensemble du pipeline de ventes CVC commerciales — de la spécification initiale des équipements avec les ingénieurs de conception jusqu'aux appels d'offres et devis finaux. Soutenait 5 à 6 projets simultanés allant de petites rénovations à des développements à grande échelle, incluant des centres récréatifs multifonctionnels, des tours du centre-ville et des constructions d'entrepôts. Collaborait avec des ingénieurs-conseils sur la sélection d'équipements, effectuant des calculs d'humidité et aidant à spécifier les configurations d'unités de traitement d'air pour optimiser les performances et les coûts d'exploitation. Assemblait et négociait des devis pour les entrepreneurs sur toute la gamme de produits, incluant les unités de toiture, refroidisseurs, centrales de traitement d'air et systèmes VRF, tout en travaillant avec les fournisseurs pour établir des prix compétitifs. A appris le côté stratégie commerciale de la vente d'ingénierie : gestion des marges et positionnement concurrentiel face aux autres fabricants. Est passé d'un rôle de soutien en arrière-plan à la gestion indépendante des relations avec les nouveaux clients ingénieurs et au travail face aux entrepreneurs en fin de stage.",
+    "tags": ["CVC", "Spécification d'équipements", "Gestion de clients", "Ventes techniques"]
+  },
+  {
+    "title": "Aide-foreur",
+    "company": "Ensign Energy Serives",
+    "date": "Jan. - Août 2022",
+    "location": "Kindersley, SK",
+    "description": "Aide-foreur sur une plateforme de forage super single opérant des puits de pétrole brut horizontaux peu profonds pour Teine Energy. Les responsabilités principales étaient centrées sur la maintenance des équipements et l'entretien opérationnel, incluant l'entretien des génératrices, pompes et systèmes mécaniques auxiliaires de la plateforme. Surveillait les systèmes de fluides et assistait aux inspections de routine des équipements BOP et dispositifs de sécurité. Effectuait des évaluations quotidiennes des dangers et soutenait des opérations de forage sûres et continues. Maintenait une conformité HSE à 100 % lors de quarts de 12 heures dans des conditions de terrain éloignées.",
+    "tags": ["Maintenance d'équipements", "Conformité HSE", "Opérations de forage", "Systèmes de sécurité"]
+  },
+  {
+    "title": "Aide-foreur",
+    "company": "Precision Drilling",
+    "date": "Mai - Déc. 2021",
+    "location": "Spirit River, AB",
+    "description": "Travaillait comme aide-foreur sur une plateforme de forage triple dans le nord-ouest éloigné de l'Alberta, forant des puits horizontaux de gaz acide de 5 à 7 km pour Tourmaline Oil. Opérait sur une plateforme mobile qui se déplaçait entre les emplacements de puits sans démontage. Responsable de toutes les opérations manuelles de manutention de tuyaux sur le plancher de forage, des évaluations quotidiennes des dangers et de l'entretien mineur des systèmes hydrauliques, d'eau et de vapeur. Participait aux déménagements complets de plateforme, incluant le démontage d'équipement, la coordination du transport et le remontage. Travaillait en rotation de 20 jours de travail, 10 jours de repos avec des quarts de 12 heures.",
+    "tags": ["Forage de puits profonds", "Déménagements de plateforme", "Manutention de tuyaux", "Opérations gaz acide"]
+  }
+]

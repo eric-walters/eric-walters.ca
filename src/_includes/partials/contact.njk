@@ -1,0 +1,22 @@
+{# Contact — simplified CTA reminder #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% if lang == "fr" %}
+  {% set m = meta_fr %}
+{% elif lang == "de" %}
+  {% set m = meta_de %}
+{% else %}
+  {% set m = meta %}
+{% endif %}
+<section class="contact container" id="contact">
+  <div class="reveal">
+    <div class="section-label">{{ t.contact.label }}</div>
+    <h2>{{ t.contact.heading }}</h2>
+    <p class="contact-sub">
+      {{ m.availability }}. {{ m.relocation }}.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:{{ m.email }}" class="contact-link primary">{{ m.email }}</a>
+    </div>
+  </div>
+</section>

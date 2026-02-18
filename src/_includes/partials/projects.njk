@@ -1,0 +1,44 @@
+{# Projects — editorial cards from projects data #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% if lang == "fr" %}
+  {% set proj = projects_fr %}
+{% elif lang == "de" %}
+  {% set proj = projects_de %}
+{% else %}
+  {% set proj = projects %}
+{% endif %}
+<section class="projects container" id="projects">
+  <div class="reveal">
+    <div class="section-label">{{ t.projects.label }}</div>
+    <h2>{{ t.projects.heading }}</h2>
+    <p class="section-intro">
+      {{ t.projects.intro }}
+    </p>
+  </div>
+  <div class="project-list">
+    {% for project in proj %}
+    <div class="project-card reveal">
+      <div class="project-body">
+        <div class="project-type">{{ project.type }}</div>
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+        {% if project.externalLink %}
+        <a href="{{ project.externalLink }}" class="project-link" target="_blank">{{ t.projects.view_github }}</a>
+        {% endif %}
+        {% if project.link %}
+        <a href="{{ project.link }}" class="project-link">{{ project.linkText }}</a>
+        {% endif %}
+      </div>
+      <div class="project-meta-panel">
+        {% for detail in project.details %}
+        <div>
+          <div class="project-detail-label">{{ detail.label }}</div>
+          <div class="project-detail-value">{{ detail.value }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

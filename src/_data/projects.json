@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Balloon-Launched Drone Platform",
+    "type": "Capstone · 2025–2026",
+    "slug": "capstone",
+    "description": "Designed the balloon launch system for Landing Zones Canada's GITPO reusable RPAS. Led a team of six mechanical engineers through requirements definition, detailed design, and client hand-off of a 400+ part SolidWorks assembly with ASME-compliant drawing package.",
+    "details": [
+      { "label": "Client", "value": "Landing Zones Canada" },
+      { "label": "Role", "value": "Team Lead — Design Direction, CAD Integration, Client Communication" },
+      { "label": "Deliverables", "value": "400+ part assembly, ASME drawings, 3 technical reports" }
+    ],
+    "link": "/projects/capstone/",
+    "linkText": "Read more →",
+    "externalLink": null
+  },
+  {
+    "title": "Vanaheim — Self-Hosted Infrastructure",
+    "type": "Personal · Ongoing",
+    "slug": "vanaheim",
+    "description": "Privacy-focused home infrastructure replacing cloud services with self-hosted alternatives. Built from used enterprise hardware running Proxmox, OPNsense, and 20+ containerized services across a five-VLAN segmented network. In daily production use.",
+    "details": [
+      { "label": "Stack", "value": "Proxmox, Docker, OPNsense, Caddy, WireGuard" },
+      { "label": "Network", "value": "5 VLANs, AdGuard DNS, SSO, encrypted queries" },
+      { "label": "Status", "value": "Production use — actively maintained and expanding" }
+    ],
+    "link": "/projects/vanaheim/",
+    "linkText": "Read more →",
+    "externalLink": null
+  }
+]

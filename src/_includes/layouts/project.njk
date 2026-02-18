@@ -1,0 +1,31 @@
+{# Project page layout — long-form article for project deep-dives #}
+{% extends "layouts/base.njk" %}
+
+{% block title %}{{ title }} | {{ meta.title }}{% endblock %}
+{% block description %}{{ description or meta.description }}{% endblock %}
+
+{% block content %}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% set prefix = "" if lang == "en" else "/" + lang %}
+
+<section class="project-page container">
+  <div class="project-header reveal">
+    <div class="section-label">{{ type }}</div>
+    <h1 class="project-title">{{ title }}</h1>
+    {% if subtitle %}
+    <p class="section-intro">{{ subtitle }}</p>
+    {% endif %}
+    <div class="project-header-line"></div>
+  </div>
+
+  <article class="project-content reveal reveal-d1">
+    {{ content | safe }}
+  </article>
+
+  <div class="project-back">
+    <a href="{{ prefix }}/#projects" class="project-back-link">{{ t.project_page.back_link }}</a>
+  </div>
+</section>
+
+{% endblock %}

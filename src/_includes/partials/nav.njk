@@ -1,0 +1,62 @@
+{# Navigation — fixed top bar #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% set prefix = "" if lang == "en" else "/" + lang %}
+{% set localMeta = meta if lang == "en" else (collections.all | localeData(lang)) %}
+{# Determine which meta to use #}
+{% if lang == "fr" %}
+  {% set m = meta %}
+{% elif lang == "de" %}
+  {% set m = meta %}
+{% else %}
+  {% set m = meta %}
+{% endif %}
+<nav>
+  <div class="nav-inner">
+    <a href="{{ prefix }}/" class="nav-logo">Eric Walters<span class="gold-dot">.</span></a>
+
+    <ul class="nav-links">
+      <li><a href="{{ prefix }}/#about">{{ t.nav.about }}</a></li>
+      <li><a href="{{ prefix }}/#experience">{{ t.nav.experience }}</a></li>
+      <li class="nav-dropdown">
+        <a href="{{ prefix }}/#projects">{{ t.nav.projects }}</a>
+        <div class="nav-dropdown-panel">
+          <a href="{{ prefix }}/projects/capstone/">{{ t.nav.project_capstone }}</a>
+          <a href="{{ prefix }}/projects/vanaheim/">{{ t.nav.project_vanaheim }}</a>
+        </div>
+      </li>
+      <li><a href="{{ prefix }}/#skills">{{ t.nav.skills }}</a></li>
+      <li><a href="{{ prefix }}/#contact">{{ t.nav.contact }}</a></li>
+    </ul>
+
+    <div class="nav-controls">
+      <div class="lang-toggle" data-current-lang="{{ lang }}">
+        <a href="/" class="lang-btn{% if lang == 'en' %} active{% endif %}">EN</a>
+        <a href="/fr/" class="lang-btn{% if lang == 'fr' %} active{% endif %}">FR</a>
+        <a href="/de/" class="lang-btn{% if lang == 'de' %} active{% endif %}">DE</a>
+      </div>
+      <button class="theme-toggle" id="themeBtn" aria-label="Toggle theme">☾</button>
+      <a href="{{ meta.cvFile }}" class="cv-btn" download>{{ t.nav.download_cv }}</a>
+      <button class="nav-hamburger" id="menuBtn" aria-label="Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="{{ prefix }}/#about">{{ t.nav.about }}</a>
+    <a href="{{ prefix }}/#experience">{{ t.nav.experience }}</a>
+    <a href="{{ prefix }}/#projects">{{ t.nav.projects }}</a>
+    <a href="{{ prefix }}/projects/capstone/" class="mobile-menu-sub">{{ t.nav.project_capstone }}</a>
+    <a href="{{ prefix }}/projects/vanaheim/" class="mobile-menu-sub">{{ t.nav.project_vanaheim }}</a>
+    <a href="{{ prefix }}/#skills">{{ t.nav.skills }}</a>
+    <a href="{{ prefix }}/#contact">{{ t.nav.contact }}</a>
+    <div class="mobile-menu-lang">
+      <a href="/" class="lang-btn{% if lang == 'en' %} active{% endif %}">EN</a>
+      <a href="/fr/" class="lang-btn{% if lang == 'fr' %} active{% endif %}">FR</a>
+      <a href="/de/" class="lang-btn{% if lang == 'de' %} active{% endif %}">DE</a>
+    </div>
+  </div>
+</nav>

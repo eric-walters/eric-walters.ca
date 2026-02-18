@@ -1,0 +1,30 @@
+{# Skills — tiered layout from skills data #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% if lang == "fr" %}
+  {% set sk = skills_fr %}
+{% elif lang == "de" %}
+  {% set sk = skills_de %}
+{% else %}
+  {% set sk = skills %}
+{% endif %}
+<section class="skills section-alt" id="skills">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">{{ t.skills.label }}</div>
+      <h2>{{ t.skills.heading }}</h2>
+    </div>
+    <div class="skills-tiers">
+      {% for group in sk %}
+      <div class="skill-tier skill-tier--{{ group.layout }} reveal">
+        <h4 class="skill-tier-heading skill-tier-heading--{{ group.layout }}">{{ group.tier }}</h4>
+        <div class="skill-tier-items">
+          {% for item in group.items %}
+          <span class="skill-pill skill-pill--{{ group.layout }}">{{ item }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

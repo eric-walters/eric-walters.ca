@@ -1,0 +1,86 @@
+/*
+ * BASE STYLES
+ * Reset, typography, layout utilities
+ */
+
+/* ── Reset ── */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 15px;
+  transition: background 0.4s var(--ease-subtle), color 0.3s;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: rgba(173, 139, 61, 0.15); }
+
+/* ── Layout ── */
+.container { max-width: 1080px; margin: 0 auto; padding: 0 2rem; }
+.section-alt { background: var(--bg-alt); }
+
+/* ── Section Label — gold, monospace ── */
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.25rem;
+}
+
+/* ── Headings — Libre Baskerville ── */
+h2 {
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.005em;
+}
+
+.section-intro {
+  font-size: 0.92rem;
+  color: var(--text-2);
+  max-width: 520px;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+/* ── Diamond Divider ── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  opacity: 0.25;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  flex: 1;
+  max-width: 60px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.section-divider .diamond {
+  width: 6px;
+  height: 6px;
+  background: var(--gold);
+  transform: rotate(45deg);
+  margin: 0 12px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  h2 { font-size: 1.7rem; }
+}

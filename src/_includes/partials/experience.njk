@@ -1,0 +1,39 @@
+{# Experience — timeline from experience data #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% if lang == "fr" %}
+  {% set exp = experience_fr %}
+{% elif lang == "de" %}
+  {% set exp = experience_de %}
+{% else %}
+  {% set exp = experience %}
+{% endif %}
+<section class="experience section-alt" id="experience">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">{{ t.experience.label }}</div>
+      <h2>{{ t.experience.heading }}</h2>
+    </div>
+    <div class="timeline">
+      {% for job in exp %}
+      <div class="timeline-item reveal">
+        <div class="timeline-date">
+          {{ job.date }}
+          <span class="timeline-location">{{ job.location }}</span>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-content">
+          <h3>{{ job.title }}</h3>
+          <div class="timeline-company">{{ job.company }}</div>
+          <p class="timeline-desc">{{ job.description }}</p>
+          <div class="timeline-tags">
+            {% for tag in job.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

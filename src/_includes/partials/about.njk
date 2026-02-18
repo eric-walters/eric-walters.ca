@@ -1,0 +1,53 @@
+{# About — narrative + quick-scan details #}
+{% set lang = locale | default("en") %}
+{% set t = translations[lang] %}
+{% if lang == "fr" %}
+  {% set m = meta_fr %}
+{% elif lang == "de" %}
+  {% set m = meta_de %}
+{% else %}
+  {% set m = meta %}
+{% endif %}
+<section class="about container" id="about">
+  <div class="reveal">
+    <div class="section-label">{{ t.about.label }}</div>
+    <h2>{{ t.about.heading | safe }}</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal reveal-d1">
+      <p>
+        {{ t.about.paragraph_1 }}
+      </p>
+      <p>
+        {{ t.about.paragraph_2 }}
+      </p>
+    </div>
+    <div class="about-details reveal reveal-d2">
+      <div class="detail-row">
+        <div class="detail-label">{{ t.about.detail_education_label }}</div>
+        <div class="detail-value">{{ t.about.detail_education_value }}</div>
+        <div class="detail-sub">{{ t.about.detail_education_sub }}</div>
+      </div>
+      <div class="detail-row">
+        <div class="detail-label">{{ t.about.detail_languages_label }}</div>
+        <div class="detail-value">{{ t.about.detail_languages_value }}</div>
+        <div class="detail-sub">{{ t.about.detail_languages_sub }}</div>
+      </div>
+      <div class="detail-row">
+        <div class="detail-label">{{ t.about.detail_location_label }}</div>
+        <div class="detail-value">{{ m.location }}</div>
+        <div class="detail-sub">{{ t.about.detail_location_sub }}</div>
+      </div>
+      <div class="detail-row">
+        <div class="detail-label">{{ t.about.detail_focus_label }}</div>
+        <div class="detail-value">{{ t.about.detail_focus_value }}</div>
+        <div class="detail-sub">{{ t.about.detail_focus_sub }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="about-extra reveal">
+    <p>
+      {{ t.about.paragraph_3 }}
+    </p>
+  </div>
+</section>

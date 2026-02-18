@@ -1,0 +1,90 @@
+/*
+ * ANIMATIONS
+ * Hero entrance sequence + scroll reveal system
+ */
+
+/* ── Hero Entrance — signature animation ── */
+.hero-eyebrow {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 0.2s forwards;
+}
+
+.hero-name-line {
+  opacity: 0;
+  transform: translateY(70%);
+  animation: nameReveal 0.85s var(--ease-out) forwards;
+}
+
+.hero-name-line:nth-child(1) { animation-delay: 0.35s; }
+.hero-name-line:nth-child(2) { animation-delay: 0.48s; }
+
+.hero-line {
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: lineGrow 0.45s var(--ease-out) 0.9s forwards;
+}
+
+.hero-desc {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 1.05s forwards;
+}
+
+.hero-meta {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 1.2s forwards;
+}
+
+.hero-headshot {
+  opacity: 0;
+  animation: fadeIn 0.6s ease 1.3s forwards;
+}
+
+.hero-contact {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 1.35s forwards;
+}
+
+/* ── Keyframes ── */
+@keyframes nameReveal {
+  from { opacity: 0; transform: translateY(70%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes lineGrow {
+  from { opacity: 0; transform: scaleX(0); }
+  to { opacity: 1; transform: scaleX(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+/* ── Scroll indicator ── */
+.scroll-indicator {
+  opacity: 0;
+  animation: fadeIn 0.5s ease 1.6s forwards, scrollHint 2s ease-in-out 2.1s infinite;
+}
+
+@keyframes scrollHint {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(6px); }
+}
+
+/* ── Scroll Reveal ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.65s var(--ease-out), transform 0.65s var(--ease-out);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-d1 { transition-delay: 0.08s; }
+.reveal-d2 { transition-delay: 0.16s; }
+.reveal-d3 { transition-delay: 0.24s; }

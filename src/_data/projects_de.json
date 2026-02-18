@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Ballongestartete Drohnenplattform",
+    "type": "Abschlussprojekt · 2025–2026",
+    "slug": "capstone",
+    "description": "Entwurf des Ballonstartsystems für das wiederverwendbare RPAS GITPO von Landing Zones Canada. Leitung eines Teams von sechs Maschinenbauingenieuren durch Anforderungsdefinition, Detailkonstruktion und Kundenübergabe einer SolidWorks-Baugruppe mit über 400 Teilen und ASME-konformem Zeichnungspaket.",
+    "details": [
+      { "label": "Kunde", "value": "Landing Zones Canada" },
+      { "label": "Rolle", "value": "Teamleiter — Konstruktionsleitung, CAD-Integration, Kundenkommunikation" },
+      { "label": "Liefergegenstände", "value": "Baugruppe mit 400+ Teilen, ASME-Zeichnungen, 3 technische Berichte" }
+    ],
+    "link": "/de/projects/capstone/",
+    "linkText": "Mehr erfahren →",
+    "externalLink": null
+  },
+  {
+    "title": "Vanaheim — Selbst gehostete Infrastruktur",
+    "type": "Persönlich · Laufend",
+    "slug": "vanaheim",
+    "description": "Datenschutzorientierte Heiminfrastruktur, die Cloud-Dienste durch selbst gehostete Alternativen ersetzt. Aufgebaut aus gebrauchter Unternehmenshardware mit Proxmox, OPNsense und über 20 containerisierten Diensten in einem Netzwerk mit fünf VLANs. Im täglichen Produktionseinsatz.",
+    "details": [
+      { "label": "Stack", "value": "Proxmox, Docker, OPNsense, Caddy, WireGuard" },
+      { "label": "Netzwerk", "value": "5 VLANs, AdGuard DNS, SSO, verschlüsselte Anfragen" },
+      { "label": "Status", "value": "Produktionseinsatz — aktiv gewartet und erweitert" }
+    ],
+    "link": "/de/projects/vanaheim/",
+    "linkText": "Mehr erfahren →",
+    "externalLink": null
+  }
+]

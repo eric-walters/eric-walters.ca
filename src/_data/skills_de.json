@@ -1,0 +1,40 @@
+[
+  {
+    "tier": "Technische Kernkompetenzen",
+    "layout": "prominent",
+    "items": [
+      "SolidWorks (CSWA-zertifiziert)",
+      "ASME-konforme Konstruktionszeichnungen",
+      "FEA / CFD-Analyse",
+      "GD&T / Technisches Zeichnen",
+      "3D-Druck & Rapid Prototyping",
+      "MATLAB",
+      "Microsoft Excel"
+    ]
+  },
+  {
+    "tier": "Angewandt & Autodidaktisch",
+    "layout": "standard",
+    "items": [
+      "Linux-Systemadministration",
+      "Proxmox / Docker",
+      "Netzwerk (VLANs, DNS, VPN)",
+      "Git / Versionskontrolle",
+      "AutoCAD",
+      "Adobe Photoshop"
+    ]
+  },
+  {
+    "tier": "Zertifizierungen & Sprachen",
+    "layout": "badges",
+    "items": [
+      "CSWA",
+      "H2S Alive",
+      "Erste Hilfe",
+      "Absturzsicherung",
+      "Englisch (fließend)",
+      "Französisch (kompetent)",
+      "Deutsch (Grundkenntnisse)"
+    ]
+  }
+]
