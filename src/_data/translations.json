@@ -19,7 +19,7 @@
     },
     "about": {
       "label": "01 — About",
-      "heading": "Mechanical engineer with range across industry, design and systems",
+      "heading": "Mechanical engineer with range across industry, design and systems.",
       "stats": [
         { "number": "3+", "label": "Years co-op and field experience" },
         { "number": "50", "label": "Wells managed independently" },
@@ -43,7 +43,7 @@
     },
     "experience": {
       "label": "02 — Experience",
-      "heading": "Professional experience across energy, HVAC, and operations",
+      "heading": "Professional experience across energy, HVAC, and operations.",
       "read_more": "Read more ↓",
       "show_less": "Show less ↑"
     },
@@ -54,7 +54,7 @@
       "view_github": "View on GitHub →"
     },
     "skills": {
-      "label": "04 — Skills & Tools",
+      "label": "04 — Skills",
       "heading": "Technical skills, certifications and languages"
     },
     "contact": {
@@ -89,7 +89,7 @@
     },
     "about": {
       "label": "01 — À propos",
-      "heading": "Ingénieur mécanicien avec une expérience diversifiée en industrie, conception et systèmes",
+      "heading": "Ingénieur mécanicien avec une expérience diversifiée en industrie, conception et systèmes.",
       "stats": [
         { "number": "3+", "label": "Années d'expérience coopérative et terrain" },
         { "number": "50", "label": "Puits gérés de façon autonome" },
@@ -113,7 +113,7 @@
     },
     "experience": {
       "label": "02 — Expérience",
-      "heading": "Expérience professionnelle en énergie, CVC et opérations",
+      "heading": "Expérience professionnelle en énergie, CVC et opérations.",
       "read_more": "Lire la suite ↓",
       "show_less": "Réduire ↑"
     },
@@ -124,7 +124,7 @@
       "view_github": "Voir sur GitHub →"
     },
     "skills": {
-      "label": "04 — Compétences & Outils",
+      "label": "04 — Compétences",
       "heading": "Compétences techniques, certifications et langues"
     },
     "contact": {
@@ -159,7 +159,7 @@
     },
     "about": {
       "label": "01 — Über mich",
-      "heading": "Maschinenbauingenieur mit Erfahrung in Industrie, Konstruktion und Systemen",
+      "heading": "Maschinenbauingenieur mit Erfahrung in Industrie, Konstruktion und Systemen.",
       "stats": [
         { "number": "3+", "label": "Jahre Praxis- und Felderfahrung" },
         { "number": "50", "label": "Bohrlöcher eigenständig betreut" },
@@ -183,7 +183,7 @@
     },
     "experience": {
       "label": "02 — Erfahrung",
-      "heading": "Berufserfahrung in Energie, HLK und Betrieb",
+      "heading": "Berufserfahrung in Energie, HLK und Betrieb.",
       "read_more": "Mehr lesen ↓",
       "show_less": "Weniger ↑"
     },
@@ -194,7 +194,7 @@
       "view_github": "Auf GitHub ansehen →"
     },
     "skills": {
-      "label": "04 — Kompetenzen & Werkzeuge",
+      "label": "04 — Kompetenzen",
       "heading": "Technische Kompetenzen, Zertifizierungen und Sprachen"
     },
     "contact": {
