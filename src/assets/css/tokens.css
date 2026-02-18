@@ -58,20 +58,68 @@
 /* ── Dark Mode ── */
 [data-theme="dark"] {
   --bg: #12141B;
-  --bg-card: #1A1C24;
-  --bg-alt: #161820;
-  --bg-card-hover: #1F212A;
-  --text: #E4E3E8;
-  --text-2: #9896A0;
-  --text-3: #65636E;
-  --border: #2A2C36;
-  --border-subtle: #22242E;
+  --bg-card: #1E2029;
+  --bg-alt: #181A22;
+  --bg-card-hover: #252731;
+  --text: #F0EFF3;
+  --text-2: #B8B6C0;
+  --text-3: #8E8C96;
+  --border: #363840;
+  --border-subtle: #2E3038;
   --nav-bg: rgba(18, 20, 27, 0.9);
   --shadow-card: 0 1px 3px rgba(0,0,0,0.2);
   --shadow-hover: 0 8px 30px rgba(0,0,0,0.3);
+
+  --gold: #C9A44E;
+  --slate: #8A9AB0;
+  --slate-tint: rgba(138, 154, 176, 0.1);
+}
+
+/* ── Dark Mode component overrides ── */
+
+[data-theme="dark"] .about-stat-number {
+  color: #B0C0D4;
+}
+
+[data-theme="dark"] .hero-eyebrow {
+  color: #9A98A4;
+}
+
+[data-theme="dark"] .hero-desc {
+  color: #B8B6C0;
+}
+
+[data-theme="dark"] .hero-meta-item {
+  color: #9A98A4;
+}
+
+[data-theme="dark"] .hero-contact .contact-link {
+  border-color: #444;
+  color: #A8A6B0;
 }
 
 [data-theme="dark"] .tag {
-  background: rgba(71, 85, 105, 0.15);
-  color: var(--steel-light);
+  border-color: #404250;
+  color: #9896A0;
+}
+
+[data-theme="dark"] .timeline-date,
+[data-theme="dark"] .timeline-location {
+  color: #807E88;
+}
+
+[data-theme="dark"] .timeline-dot {
+  background: #8A9AB0;
+}
+
+[data-theme="dark"] .project-link {
+  color: var(--slate);
+}
+
+[data-theme="dark"] .skills-list li {
+  border-bottom-color: #363840;
+}
+
+[data-theme="dark"] footer {
+  color: #807E88;
 }
