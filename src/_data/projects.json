@@ -1,7 +1,7 @@
 [
   {
     "title": "Balloon-Launched Drone Platform",
-    "type": "Capstone · 2025–2026",
+    "type": "Capstone · Dec 2026",
     "slug": "capstone",
     "description": "Designed the balloon launch system for Landing Zones Canada's GITPO reusable RPAS. Led a team of six mechanical engineers through requirements definition, detailed design, and client hand-off of a 400+ part SolidWorks assembly with ASME-compliant drawing package.",
     "details": [
@@ -14,7 +14,7 @@
     "externalLink": null
   },
   {
-    "title": "Vanaheim — Self-Hosted Infrastructure",
+    "title": "Vanaheim — Personal Cloud Infrastructure",
     "type": "Personal · Ongoing",
     "slug": "vanaheim",
     "description": "Privacy-focused home infrastructure replacing cloud services with self-hosted alternatives. Built from used enterprise hardware running Proxmox, OPNsense, and 20+ containerized services across a five-VLAN segmented network. In daily production use.",

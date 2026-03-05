@@ -8,20 +8,20 @@ permalink: /projects/vanaheim/
 
 <div class="project-facts">
   <div class="project-fact">
-    <span class="project-fact-label">What</span>
-    <span class="project-fact-value">Home server and private network</span>
+    <div class="project-fact-label">What</div>
+    <div class="project-fact-value">Home server and private network</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Running</span>
-    <span class="project-fact-value">20+ self-hosted services</span>
+    <div class="project-fact-label">Running</div>
+    <div class="project-fact-value">20+ self-hosted services</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Built With</span>
-    <span class="project-fact-value">Proxmox, OPNsense, Docker</span>
+    <div class="project-fact-label">Built With</div>
+    <div class="project-fact-value">Proxmox, OPNsense, Docker</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Status</span>
-    <span class="project-fact-value">In daily use, actively maintained</span>
+    <div class="project-fact-label">Status</div>
+    <div class="project-fact-value">In daily use, actively maintained</div>
   </div>
 </div>
 
