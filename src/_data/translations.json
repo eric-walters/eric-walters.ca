@@ -26,7 +26,7 @@
         { "number": "400+", "label": "Parts in capstone assembly" },
         { "number": "20+", "label": "Self-hosted services running" }
       ],
-      "paragraph_1": "Co-op and field experience across upstream oil and gas, commercial HVAC, and drilling operations. Managed 50 conventional crude wells independently as a wellsite operator, supported commercial equipment sales on projects exceeding $1M, and spent over a year on drilling rigs in both sour gas and shallow crude programs.",
+      "paragraph_1": "Co-op and field experience across upstream oil and gas, commercial HVAC, and drilling operations. Managed aproximately 52 conventional crude wells independently as a wellsite operator, supported commercial equipment sales on projects valued up to $2.5M, and spent over a year on drilling rigs in both sour gas and shallow crude programs.",
       "paragraph_2": "Strong academic foundation in CAD, simulation, and design methodology. Led a capstone team of six through detailed design of a balloon-launched autonomous glider platform, producing ASME-compliant drawings and a 400+ part assembly for client hand-off. Winner of the Junior Honors Design Award.",
       "paragraph_3": "Building technical skills outside the classroom through a self-hosted infrastructure project running on Proxmox with segmented VLANs, VPN access, and 20+ containerized services. Currently working toward managing the full stack as infrastructure-as-code. This self-directed approach extended into web development, including this portfolio site, accelerated by working alongside AI tools as a research partner.",
       "detail_education_label": "Education",
@@ -34,9 +34,9 @@
       "detail_education_sub": "University of Alberta · 2026",
       "detail_languages_label": "Languages",
       "detail_languages_value": "English · French · German",
-      "detail_languages_sub": "Fluent · Proficient · Basic",
+      "detail_languages_sub": "Fluent · Proficient · Beginner",
       "detail_location_label": "Location",
-      "detail_location_sub": "Open to: Canada, UK, France, Germany, Australia",
+      "detail_location_sub": "Open to: Canada, UK, EU, Australia",
       "detail_focus_label": "Focus",
       "detail_focus_value": "Design · Operations · Sales",
       "detail_focus_sub": "Field engineering, project coordination"
