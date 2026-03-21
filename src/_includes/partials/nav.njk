@@ -13,7 +13,18 @@
 {% endif %}
 <nav>
   <div class="nav-inner">
-    <a href="{{ prefix }}/" class="nav-logo">Eric Walters<span class="gold-dot">.</span></a>
+    <a href="{{ prefix }}/" class="nav-logo" aria-label="Eric Walters — Home">
+      <svg class="nav-logo-mark" xmlns="http://www.w3.org/2000/svg" viewBox="1 6 134 66" aria-hidden="true">
+        <defs>
+          <marker markerWidth="1.05" markerHeight="1" refX="0" refY="0" orient="auto-start-reverse" id="navCap" viewBox="0 0 1.05 1" style="overflow:visible" preserveAspectRatio="xMidYMid">
+            <path d="M 0,-1 H 2 L 1,0 2,1 H 0 L -0.1,0 Z" transform="scale(0.5)" style="fill:context-stroke"/>
+          </marker>
+        </defs>
+        <text class="logo-letters" font-family="'Libre Baskerville', Georgia, serif" font-size="59.7361" font-weight="bold" letter-spacing="3.376" x="5.085" y="53.865">EW</text>
+        <path class="logo-line" fill="none" stroke-width="4.657" stroke-linecap="square" marker-start="url(#navCap)" d="m 9.726,62.897 h 37.978 l 5.415,4.962 5.248,-4.962 h 68.145"/>
+        <rect class="logo-diamond" width="8.304" height="8.304" x="11.11" y="55.587" transform="rotate(-45)" ry="0"/>
+      </svg>
+    </a>
 
     <ul class="nav-links">
       <li><a href="{{ prefix }}/#about">{{ t.nav.about }}</a></li>
