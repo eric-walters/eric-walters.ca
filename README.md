@@ -81,39 +81,3 @@ src/
 **Gold appears on:** Section labels (01 — About), company names, CV button, hero accent line, "Read more" links, skill group headings, diamond dividers, footer dash, hero meta dots, email CTA button.
 
 **Steel appears on:** Tags, detail-row labels, timeline dots/dates, nav links, language toggle active state, project type labels, project detail labels.
-
-## How to Edit Content
-
-### Add a new job
-Edit `src/_data/experience.json` — add a new object to the array.
-
-### Add a new project
-1. Add entry to `src/_data/projects.json`
-2. Create `src/content/en/projects/your-slug.md` with frontmatter
-3. The home page card and subpage are both generated automatically
-
-### Update personal info
-Edit `src/_data/meta.json` — email, links, location, availability text.
-
-### Add your CV
-Place your PDF at `src/assets/files/eric-walters-cv.pdf`
-
-### Change colors
-Edit `src/assets/css/tokens.css` — all colors are CSS custom properties.
-
-## Deployment
-
-**Cloudflare Pages:**
-1. Connect GitHub repo to Cloudflare Pages
-2. Build command: `npx @11ty/eleventy`
-3. Build output directory: `_site`
-4. Domain: `eric-walters.ca`
-
-Preview deployments happen automatically on non-main branches.
-
-## Future: Translations (i18n)
-
-The structure supports parallel content directories (`/fr/`, `/de/`). When ready:
-1. Create locale-specific data files (e.g., `experience.fr.json`)
-2. Add content pages under `src/content/fr/`
-3. Update the language toggle in `lang-toggle.js` to navigate to locale paths
