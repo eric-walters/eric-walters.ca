@@ -9,20 +9,20 @@ permalink: /de/projects/vanaheim/
 
 <div class="project-facts">
   <div class="project-fact">
-    <span class="project-fact-label">Was</span>
-    <span class="project-fact-value">Heimserver und privates Netzwerk</span>
+    <div class="project-fact-label">Was</div>
+    <div class="project-fact-value">Heimserver und privates Netzwerk</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Läuft</span>
-    <span class="project-fact-value">20+ selbst gehostete Dienste</span>
+    <div class="project-fact-label">Läuft</div>
+    <div class="project-fact-value">20+ selbst gehostete Dienste</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Gebaut mit</span>
-    <span class="project-fact-value">Proxmox, OPNsense, Docker</span>
+    <div class="project-fact-label">Gebaut mit</div>
+    <div class="project-fact-value">Proxmox, OPNsense, Docker</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Status</span>
-    <span class="project-fact-value">Im täglichen Einsatz, aktiv gewartet</span>
+    <div class="project-fact-label">Status</div>
+    <div class="project-fact-value">Im täglichen Einsatz, aktiv gewartet</div>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ Dies ist Produktionsinfrastruktur, keine Testumgebung. Dateispeicher, Medien, Pa
 
 ## Nächste Schritte
 
-Arbeite derzeit daran, den gesamten Stack als Infrastructure-as-Code zu verwalten, mit dem Ziel, jeden Dienst, jede Konfiguration und jede Firewall-Regel in Git versionskontrolliert und aus einer sauberen Bereitstellung reproduzierbar zu haben.
+Arbeite derzeit daran, den gesamten Stack als Infrastructure-as-Code zu verwalten, mit jedem Dienst, jeder Konfiguration und jeder Firewall-Regel versionskontrolliert in Git und aus einer sauberen Bereitstellung reproduzierbar.
 
 <div class="project-placeholder">
   <span class="project-placeholder-icon">◇</span>

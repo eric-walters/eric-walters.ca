@@ -82,7 +82,7 @@
     },
     "hero": {
       "eyebrow": "Génie mécanique, B.Sc. — Université de l'Alberta",
-      "desc": "Étudiant en génie mécanique certifié CSWA avec une expérience pratique sur le terrain et de solides compétences en CAO. Maîtrise des assemblages SolidWorks, des dessins conformes ASME et de l'analyse FEA/CFD. Diplôme prévu en 2026, à la recherche de postes en conception de produits, opérations ou ventes techniques.",
+      "desc": "Diplômé en génie mécanique admissible au titre d'IIT, avec une expérience coopérative et de terrain dans les secteurs pétrolier et gazier en amont, le CVC commercial et les opérations de forage. Motivé à prendre en charge des projets significatifs et à évoluer en tant qu'ingénieur polyvalent et pratique. Certifié CSWA avec une formation en conception, fabrication et gestion d'entreprise, complétée par un apprentissage autodidacte en développement logiciel et conception d'infrastructure. Disponible pour les déplacements et la relocalisation, diplôme prévu en mai 2026.",
       "open_to_relocation": "Ouvert à la relocalisation",
       "linkedin": "LinkedIn",
       "github": "GitHub"
@@ -96,7 +96,7 @@
         { "number": "400+", "label": "Pièces dans l'assemblage de fin d'études" },
         { "number": "20+", "label": "Services auto-hébergés en opération" }
       ],
-      "paragraph_1": "Expérience coopérative et de terrain dans les secteurs pétrolier et gazier en amont, le CVC commercial et les opérations de forage. Gestion autonome de 50 puits de pétrole brut conventionnels, soutien à la vente d'équipements commerciaux sur des projets dépassant 1 M$ et plus d'un an sur des plateformes de forage dans des programmes de gaz acide et de pétrole brut peu profond.",
+      "paragraph_1": "Expérience coopérative et de terrain dans les secteurs pétrolier et gazier en amont, le CVC commercial et les opérations de forage. Gestion autonome d'environ 52 puits de pétrole brut conventionnels en tant qu'opérateur de site de puits, soutien à la vente d'équipements commerciaux sur des projets évalués jusqu'à 2,5 M$ et plus d'un an sur des plateformes de forage dans des programmes de gaz acide et de pétrole brut peu profond.",
       "paragraph_2": "Solide formation académique en CAO, simulation et méthodologie de conception. Direction d'une équipe de six personnes pour la conception détaillée d'une plateforme de planeur autonome lancé par ballon, produisant des dessins conformes ASME et un assemblage de plus de 400 pièces pour remise au client. Lauréat du Junior Honors Design Award.",
       "paragraph_3": "Développement de compétences techniques en dehors des cours à travers un projet d'infrastructure auto-hébergée fonctionnant sur Proxmox avec des VLANs segmentés, un accès VPN et plus de 20 services conteneurisés. Travaille actuellement vers la gestion de l'ensemble de la pile en tant qu'infrastructure-as-code. Cette approche autodidacte s'est étendue au développement web, y compris ce site portfolio, accélérée par le travail aux côtés d'outils d'IA comme partenaire de recherche.",
       "detail_education_label": "Formation",
@@ -104,9 +104,9 @@
       "detail_education_sub": "Université de l'Alberta · 2026",
       "detail_languages_label": "Langues",
       "detail_languages_value": "Anglais · Français · Allemand",
-      "detail_languages_sub": "Courant · Compétent · Base",
+      "detail_languages_sub": "Courant · Compétent · Débutant",
       "detail_location_label": "Lieu",
-      "detail_location_sub": "Ouvert à : Canada, R.-U., France, Allemagne, Australie",
+      "detail_location_sub": "Ouvert à : Canada, R.-U., UE, Australie",
       "detail_focus_label": "Domaines",
       "detail_focus_value": "Conception · Opérations · Ventes",
       "detail_focus_sub": "Ingénierie de terrain, coordination de projets"
@@ -152,7 +152,7 @@
     },
     "hero": {
       "eyebrow": "Maschinenbau, B.Sc. — University of Alberta",
-      "desc": "CSWA-zertifizierter Maschinenbaustudent mit praktischer Felderfahrung und fundierten CAD-Kenntnissen. Erfahren in SolidWorks-Baugruppen, ASME-konformen Zeichnungen und FEA/CFD-Analyse. Abschluss 2026, auf der Suche nach Positionen in Produktdesign, Betrieb oder technischem Vertrieb.",
+      "desc": "EIT-berechtigter Absolvent des Maschinenbaus mit kooperativer und praktischer Erfahrung in den Bereichen Upstream-Öl und -Gas, gewerbliche HLK-Technik und Bohrbetrieb. Motiviert, Verantwortung für bedeutende Projekte zu übernehmen und sich als vielseitiger, praxisorientierter Ingenieur weiterzuentwickeln. CSWA-zertifiziert mit Studienleistungen in Konstruktion, Fertigung und Betriebswirtschaft, ergänzt durch autodidaktische Softwareentwicklung und Infrastrukturdesign. Verfügbar für Reisen und Umzug, Abschluss im Mai 2026.",
       "open_to_relocation": "Offen für Umzug",
       "linkedin": "LinkedIn",
       "github": "GitHub"
@@ -166,7 +166,7 @@
         { "number": "400+", "label": "Teile in der Abschlussprojekt-Baugruppe" },
         { "number": "20+", "label": "Selbst gehostete Dienste in Betrieb" }
       ],
-      "paragraph_1": "Kooperative und praktische Erfahrung in den Bereichen Upstream-Öl und -Gas, gewerbliche HLK-Technik und Bohrbetrieb. Eigenständige Verwaltung von 50 konventionellen Rohölbrunnen, Unterstützung kommerzieller Ausrüstungsverkäufe bei Projekten über 1 Mio. $ und über ein Jahr auf Bohranlagen in Sauergas- und Flachbohrprogrammen.",
+      "paragraph_1": "Kooperative und praktische Erfahrung in den Bereichen Upstream-Öl und -Gas, gewerbliche HLK-Technik und Bohrbetrieb. Eigenständige Verwaltung von etwa 52 konventionellen Rohölbrunnen als Bohrlochstandortbetreiber, Unterstützung kommerzieller Ausrüstungsverkäufe bei Projekten im Wert von bis zu 2,5 Mio. $ und über ein Jahr auf Bohranlagen in Sauergas- und Flachbohrprogrammen.",
       "paragraph_2": "Starke akademische Grundlage in CAD, Simulation und Entwurfsmethodik. Leitung eines sechsköpfigen Abschlussprojektteams durch die Detailkonstruktion einer ballongestarteten autonomen Gleiterplattform mit ASME-konformen Zeichnungen und einer Baugruppe mit über 400 Teilen. Gewinner des Junior Honors Design Award.",
       "paragraph_3": "Aufbau technischer Fähigkeiten außerhalb des Studiums durch ein selbst gehostetes Infrastrukturprojekt auf Proxmox mit segmentierten VLANs, VPN-Zugang und über 20 containerisierten Diensten. Arbeitet derzeit an der Verwaltung des gesamten Stacks als Infrastructure-as-Code. Dieser autodidaktische Ansatz erstreckte sich auf die Webentwicklung, einschließlich dieser Portfolio-Website, beschleunigt durch die Zusammenarbeit mit KI-Tools als Forschungspartner.",
       "detail_education_label": "Ausbildung",
@@ -174,9 +174,9 @@
       "detail_education_sub": "University of Alberta · 2026",
       "detail_languages_label": "Sprachen",
       "detail_languages_value": "Englisch · Französisch · Deutsch",
-      "detail_languages_sub": "Fließend · Kompetent · Grundkenntnisse",
+      "detail_languages_sub": "Fließend · Kompetent · Anfänger",
       "detail_location_label": "Standort",
-      "detail_location_sub": "Offen für: Kanada, UK, Frankreich, Deutschland, Australien",
+      "detail_location_sub": "Offen für: Kanada, UK, EU, Australien",
       "detail_focus_label": "Schwerpunkt",
       "detail_focus_value": "Konstruktion · Betrieb · Vertrieb",
       "detail_focus_sub": "Feldingenieurwesen, Projektkoordination"

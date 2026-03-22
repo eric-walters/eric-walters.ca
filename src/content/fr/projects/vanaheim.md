@@ -9,20 +9,20 @@ permalink: /fr/projects/vanaheim/
 
 <div class="project-facts">
   <div class="project-fact">
-    <span class="project-fact-label">Quoi</span>
-    <span class="project-fact-value">Serveur domestique et réseau privé</span>
+    <div class="project-fact-label">Quoi</div>
+    <div class="project-fact-value">Serveur domestique et réseau privé</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">En service</span>
-    <span class="project-fact-value">20+ services auto-hébergés</span>
+    <div class="project-fact-label">En service</div>
+    <div class="project-fact-value">20+ services auto-hébergés</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Construit avec</span>
-    <span class="project-fact-value">Proxmox, OPNsense, Docker</span>
+    <div class="project-fact-label">Construit avec</div>
+    <div class="project-fact-value">Proxmox, OPNsense, Docker</div>
   </div>
   <div class="project-fact">
-    <span class="project-fact-label">Statut</span>
-    <span class="project-fact-value">En utilisation quotidienne, activement maintenu</span>
+    <div class="project-fact-label">Statut</div>
+    <div class="project-fact-value">En utilisation quotidienne, activement maintenu</div>
   </div>
 </div>
 
@@ -52,7 +52,7 @@ C'est une infrastructure de production, pas un environnement de test. Le stockag
 
 ## Prochaines étapes
 
-Travaille actuellement vers la gestion de l'ensemble de la pile en tant qu'infrastructure-as-code, avec l'objectif d'avoir chaque service, configuration et règle de pare-feu sous contrôle de version dans Git et reproductible à partir d'un déploiement vierge.
+Travaille actuellement vers la gestion de l'ensemble de la pile en tant qu'infrastructure-as-code, avec chaque service, configuration et règle de pare-feu sous contrôle de version dans Git et reproductible à partir d'un déploiement vierge.
 
 <div class="project-placeholder">
   <span class="project-placeholder-icon">◇</span>
