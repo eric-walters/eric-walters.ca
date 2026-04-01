@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 80 80">
+  <rect fill="#f3f4f6" width="72" height="72" x="-4" y="-4" rx="14" ry="14"/>
   <text font-family="'Libre Baskerville', Georgia, serif" font-size="28" font-weight="bold" letter-spacing="1.5" fill="#374151" x="3" y="38">EW</text>
   <rect fill="#ad8b3d" width="3.5" height="3.5" x="7.6" y="26.3" transform="rotate(-45)" ry="0"/>
   <path fill="none" stroke="#ad8b3d" stroke-width="2" stroke-linecap="square" d="m 4,46 h 18 l 2.5,2.3 2.4,-2.3 h 33"/>
